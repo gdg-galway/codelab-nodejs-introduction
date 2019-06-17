@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>To-Do List</title>
+    </head>
+    <body>
+        <h1>To-Do List</h1>
+        <nav>
+            <a href="/todos">All</a>
+            <a href="/todos/pending">Pending</a>
+            <a href="/todos/completed">Completed</a>
+        </nav>
+        {{#todos}}
+            <div class="todo">
+                {{#completed}}<input type="checkbox" checked>{{/completed}}
+                {{^completed}}<input type="checkbox">{{/completed}}
+                <span>{{title}}</span>
+            </div>
+        {{/todos}}
+    </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "gdg-nodejs",
+  "version": "1.0.0",
+  "description": "A simple NodeJS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Garrigues - GDG Galway",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache": "^3.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gdg-galway/codelab-nodejs-introduction.git"
+  }
+}
