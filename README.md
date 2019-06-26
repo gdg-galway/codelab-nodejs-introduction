@@ -100,8 +100,8 @@ First, let's install `mustache` using `npm install --save mustache`. We now need
         </nav>
         {{#todos}}
             <div class="todo">
-                {{#completed}}<input type="check" checked>{{/completed}}
-                {{^completed}}<input type="check">{{/completed}}
+                {{#completed}}<input type="checkbox" checked>{{/completed}}
+                {{^completed}}<input type="checkbox">{{/completed}}
                 <span>{{title}}</span>
             </div>
         {{/todos}}
